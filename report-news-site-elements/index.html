@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Report az</title>
+        </head>
+
+        <style>
+       .main_div_of_page
+         {
+            float:left;
+         }
+       .left
+         {
+            width:65%;
+         }
+         .right
+      {
+         margin-top:30%;
+         margin-left:4%;
+         width:27%;
+      }
+      .div1
+      {
+        margin-top:3%;
+        
+      }
+      .div2
+      {
+        margin-top:3%;
+        margin-left:8%;
+        margin-right:8%;
+        height:55px;
+        border-top:1px solid rgb(199, 198, 198);
+        border-bottom: 1px solid rgb(199, 198, 198);
+      }
+     .div3
+     {
+        margin-left:8%; 
+        color:rgba(0, 0, 0, 0.785);
+     }
+     .mediabutton
+     {
+        background-color: white;
+        width:80px;
+        height:25px;
+        font-size:15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        color:rgba(0, 0, 0, 0.662);
+        font-weight: bold;
+     }
+     .mediabutton:hover
+     {
+      cursor:pointer;
+     }
+     a
+     {
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.737);
+        font-family:Montserrat SemiBold sans-serif ;
+        font-weight:bold;
+        font-size:24px;
+     }
+     .headerofnews
+     {
+     font-weight:650;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     .date_of_page
+     {
+      float:right;
+      font-size:18px;
+      color:rgb(122, 124, 126);
+
+     }
+     .div4
+     {
+        font-size:23px;
+        font-family: Montserrat Medium sans-serif;
+        margin-left:8%;
+        
+        color:rgba(0, 0, 0, 0.785);
+     }
+    .text2
+    {
+        margin-top:3%;
+        margin-bottom: 3%;
+    }
+    .text5
+    {
+        margin-top:3%;
+    }
+     
+     .linkreport
+     {
+        font-size: 23px;
+        font-family: Montserrat Medium sans-serif;
+        font-weight:400;
+        color:rgb(15, 155, 210);
+     }
+     .div5
+     {
+        margin-left:8%; 
+        background-image:linear-gradient(to right,rgb(7, 136, 74),rgba(163, 224, 163, 0.936));
+     }
+     .linktowhatsapp
+     {
+        color:white;
+        font-family: Montserrat Medium sans-serif;
+        font-size: 26px;
+        font-weight:400;
+     }
+     .whatsapptext
+     {
+        padding-top:5px;
+        padding-bottom:5px;
+     }
+     .div6
+     {
+        font-size:23px;
+        font-family: Montserrat Medium sans-serif;
+        margin-left:8%;
+        color:rgba(0, 0, 0, 0.785);
+     }
+     .head_for_title
+     {
+        padding-top:2%;
+        padding-bottom:2%;
+        border-bottom:8px;
+        border-bottom-style:double;
+        border-bottom-color: rgb(122, 124, 126);
+     }
+     .card1
+     {    
+      column-count: 2;
+        margin-bottom:2%;
+        margin-left:8%; 
+        width:92%;
+     }
+     .link_to_news
+     {
+      color:rgba(0, 0, 0, 0.785);
+      font-size:17px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight:bold;
+      padding-bottom:5px;
+     }
+     .date_of_news
+     {
+      font-size:14px;
+      font-weight:600;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:rgb(176, 174, 174);
+     }
+     .card3
+     {
+      margin-bottom:60%;
+     }
+     .card2
+     {
+       column-count: 4;
+        padding-bottom:5px;
+        margin-left:8%;
+        width:92%;
+     }
+     .card3
+     {
+      border-left:1px solid rgb(199, 197, 197) ;
+      border-right: 1px solid rgb(199, 197, 197);
+      border-bottom: 1px solid rgb(199, 197, 197);
+     }
+    
+     .time
+     {
+      padding-left:6px;
+      border-top: 1px solid  rgb(199, 197, 197);
+      color:rgb(122, 124, 126);
+      font-size:19px;
+      font-weight:400;
+      font-family:Montserrat Medium sans-serif;
+     }
+     .text_of_card
+     {
+      padding-left:6px;
+      color:rgba(0, 0, 0, 0.785);
+      font-size:20px;
+      font-family:Montserrat Medium sans-serif;
+      font-weight: 400;
+     }
+     .link_to_the_common_page_of_topic
+     {
+      padding-left:6px;
+      padding-top:10px;
+      color:rgb(122, 124, 126);
+      font-size:19px;
+      font-weight:400;
+      font-family:Montserrat Medium sans-serif;
+     }
+     .footerdiv1
+     {
+      margin-bottom:3%;
+        margin-left:5%;
+        margin-right:5%;
+     }
+     .footerdiv2
+     {
+      margin-left:5%;
+       margin-right:5%;
+     }
+     .footerp1
+     {
+      font-family:Montserrat Medium sans-serif;
+      font-size:18px;
+       color:rgba(0, 0, 0, 0.785);
+        border-top:6px;
+        border-top-style:double;
+        border-top-color: rgb(158, 159, 160);
+     }
+     .footerp2
+     {
+      color: rgb(158, 159, 160);
+     }
+     
+        </style>
+    </head>
+    <body>
+            <div class="div1">
+            <center>
+        <a href=https://report.az/ ><img src="report informasiya agentliyi.webp" alt="informasiya agentliyi" style="width:280px; height:45px"></a>
+            </center>
+           </div>
+        
+            <div class="div2">
+            <pre><a href=https://report.az/ >Əsas xəbərlər</a>   <a href=https://report.az/son-xeberler/ >Son xəbərlər</a>   <a href=https://report.az/siyasi-xeberler/ >Siyasət</a>   <a href=https://report.az/iqtisadiyyat-xeberleri/ >İqtisadiyyat</a>   <a href=https://report.az/cemiyyet/ >Cəmiyyət</a>   <a href=https://report.az/idman-xeberleri/ >İdman</a>   <a href=https://report.az/medeniyyet-xeberleri/ >Mədəniyyət</a>   <a href=https://report.az/dunya-xeberleri/ >Dünya</a>   <a href=https://report.az/analitika/ >Analitika</a>   <a href=https://report.az/multimedia/ >Multimedia</a>   <i class="fa fa-search"></i></pre>
+           </div>
+        <div class="common_div">
+        <div class="main_div_of_page left">
+            <div class="div3">
+        <h1 class="headerofnews">Azərbaycanda "Qızıl qələm" mükafatının verilməsi dayandırılıb</h1>
+            <a href=https://report.az/media-xeber/ ><button class="mediabutton">MEDİA</button></a>
+            <p class="date_of_page"><i class="fa fa-calendar" style="font-size:18px"></i> 17 noyabr , 2023 09:23</p>
+            <img src="qelem shekli.jpg" alt="qelemshekli" width="100%" height="80%">
+            </div>
+            <div class="div4">
+                <p class="text1">
+                Azərbaycanda "Qızıl qələm" mükafatının verilməsi dayandırılıb.
+                </p> 
+               <p class="text2">
+                <a class="linkreport" href=https://report.az/media-xeber/azerbaycanda-qizil-qelem-mukafatinin-verilmesi-dayandirilib/ >"Report"</a> xəbər verir ki, bu barədə Mətbuat Şurası məlumat yayıb.
+                </p>
+                <p class="text4">
+                Bildirilib ki, vaxtilə cəmiyyətdə müəyyən nüfuz qazanmış, dəyərli qələm adamlarına verilmiş, Kütləvi İnformasiya Vasitələri İşçiləri Həmkarlar İttifaqı adlanan qurumun təsis etdiyi "Qızıl qələm" mükafatı son illər jurnalistikadan uzaq insanlara təqdim olunmaqla öz etibarını itirib, cəmiyyətdə haqlı narazılığa səbəb olub. Mətbuat Şurası jurnalistikamızın və peşəkar media işçilərinin nüfuzuna xələl gətirən bu məsələyə biganə qala bilməzdi. Buna görə də MŞ-nin tapşırığı ilə quruma faktiki rəhbərlik edən Çingiz Qurbanoğlu Şuraya dəvət olunub, icraçı katibin müavini İlqar Tağıyev Mətbuat Şurasının mövqeyini, irad və tövsiyələrini onun diqqətinə çatdırıb. Nəticədə Ç.Qurbanoğlu Azərbaycan Mətbuat Şurasına müraciət ünvanlayıb. O, məktubunda son zamanlar mətbuatda və sosial şəbəkələrdə sədri olduğu Kütləvi İnformasiya Vasitələri İşçiləri Həmkarlar İttifaqının müxtəlif insanlara təqdim etdiyi "Qızıl qələm" və digər media mükafatları ilə bağlı narazılıqlar, həmçinin MŞ-nin tövsiyələrini nəzərə alaraq KİVİHİ Rəyasət Heyətinin qərarı ilə bu mükafatların təqdimatının dayandırıldığını yazıb. Mətbuat Şurası da müraciəti anlayışla qarşılayaraq problemin həllini tapdığını bildirir.
+                </p>
+                <p class="text5">
+                 Sonda MŞ digər ictimai qurumlara da müraciət edərək media adı ilə mükafatlar verilməsində ehtiyatlı davranmağa, Azərbaycan jurnalistikasının nüfuzuna xələl gətirən addımlardan çəkinməyə çağırır.
+                </p>
+                </div>
+                <div class="div5">
+                   <pre class="whatsapptext">   <i class="fa fa-whatsapp" style="font-size:26px;color:white "></i> <a class="linktowhatsapp" href="https://www.whatsapp.com/channel/0029VaAQDGG1NCrLqDCPr31x">  Bizim WhatsApp kanalımıza abunə olun </a></pre>
+                </div>
+                <div class="div6">
+                    <h3 class="head_for_title"> ƏN VACİB XƏBƏRLƏR </h3>
+               </div>
+               <div class="card1">
+                  <a class="link_to_news" href=https://report.az/qarabag/xin-qarabagin-ermeni-sakinleri-azerbaycanin-cagirislarina-baxmayaraq-ermenistana-ve-diger-olkelere-kocub/ >
+                     <img src="xinxebersekli.jfif" alt="XİN:Azərbaycan Qarabağ ermənilərinin hüquqlarını müdafiə etməyə sadiqdir" title="XİN:Azərbaycan Qarabağ ermənilərinin hüquqlarını müdafiə etməyə sadiqdir" width="100%" height="20%">
+                     XİN:"Azərbaycan Qarabağ ermənilərinin hüquqlarını müdafiə etməyə sadiqdir"</a>
+                     <p class="date_of_news">17 Noyabr , 2023 19:39</p>
+                     <a class="link_to_news" href="https://report.az/xarici-siyaset/resmi-baki-regionda-yeni-emekdasliq-formati-elan-edib/">
+                        <img src="bakiemekdasliqsekli.jpg" alt="Rəsmi Bakı regionda yeni əməkdaşlıq formatı elan edib" title="Rəsmi Bakı regionda yeni əməkdaşlıq formatı elan edib" width="100%" height="20%">
+                        Rəsmi Bakı regionda yeni əməkdaşlıq formatı elan edib
+                     </a>
+                     <p class="date_of_news">16 Noyabr , 2023 15:11</p>
+                </div>   
+                <div class="card2">
+                <a class="link_to_news" href="https://report.az/media-xeber/sumqayit-belediyyesine-metbuat-katibi-teyin-edilib/">
+                  <img src="metbuatkatibixeberi.jpeg" alt="Sumqayıt Bələdiyyəsinə mətbuat katibi təyin edilib" title="Sumqayıt Bələdiyyəsinə mətbuat katibi təyin edilib" width="100%" height="20%">
+                  Sumqayıt Bələdiyyəsinə mətbuat katibi təyin edilib
+                </a>
+                <p class="date_of_news">17 Noyabr , 2023 10:40</p>
+                <a class="link_to_news"  href="https://report.az/media-xeber/istanbulda-turk-xeber-agentlikleri-alyansi-yaradilib/">
+                  <img src="istanbulxeberi.jpg" alt="İstanbulda Türk Xəbər Agentlikləri Alyansı yaradılıb" title="İstanbulda Türk Xəbər Agentlikləri Alyansı yaradılıb" width="100%" height="20%">
+                  İstanbulda Türk Xəbər Agentlikləri Alyansı yaradılıb
+                </a>
+                <p class="date_of_news">6 Noyabr , 2023 13:27</p>
+                <a class="link_to_news"  href="https://report.az/media-xeber/bu-gun-teleradio-iscilerinin-pese-bayrami-gunudur/">
+                  <img src="teleradioxeberi.jpg" alt="Bu gün teleradio işçilərinin peşə bayramı günüdür" title="Bu gün teleradio işçilərinin peşə bayramı günüdür" width="100%" height="20%">
+                  Bu gün teleradio işçilərinin peşə bayramı günüdür
+                </a>
+                <p class="date_of_news">6 Noyabr , 2023 09:57 </p>
+                <a class="link_to_news" href="https://report.az/media-xeber/turkiyeli-meshur-aparici-vefat-edib/">
+                  <img src="aparicixeberi.jpg" alt="Türkiyəli məşhur aparıcı vəfat edib" title="Türkiyəli məşhur aparıcı vəfat edib" width="100%" height="20%">
+                  Türkiyəli məşhur aparıcı vəfat edib
+                </a>
+                <p class="date_of_news">17 Noyabr , 2023 03:54</p>
+                </div>
+                </div>
+                <div class="main_div_of_page right">
+                  <div class="div6">
+                     <h3 class="head_for_title">SON XƏBƏRLƏR</h3>
+                    <div class="card3">
+                     <p class="time">01:19</p>
+                  <p> <a class="text_of_card" href="https://report.az/hadise/bakida-64-yasli-qadin-yol-neqliyyat-hadisesinde-xesaret-alib/">Bakıda 64 yaşlı qadın yol-nəqliyyat hadisəsində xəsarət alıb</a></p> 
+                   <a class="link_to_the_common_page_of_topic" href="https://report.az/hadise/"> HADİSƏ</a>
+                  
+                     <p class="time">02:53</p>
+                     <p><a class="text_of_card" href=https://report.az/region-xeberleri/turkiye-40-eded-eurofighter-qiricisi-almaq-isteyir/">Türkiyə 40 ədəd "Eurofighter" qırıcısı almaq istəyir</a></p>
+                     <a class="link_to_the_common_page_of_topic" href="https://report.az/region-xeberleri/">REGİON</a>
+
+                     <p class="time">02:03</p>
+                     <p><a class="text_of_card" href="https://report.az/futbol-xeberleri/avro-2024-albaniya-ve-danimarka-final-merhelesine-vesiqeni-resmilesdiribler/" >AVRO-2024:Almaniya və Danimarka final mərhələsinə vəsiqəni rəsmiləşdiriblər</a> </p>
+                     <a class="link_to_the_common_page_of_topic" href="https://report.az/futbol-xeberleri/">FUTBOL</a>
+                     
+                     <p class="time">01:47</p>
+                     <p><a class="text_of_card" href="https://report.az/diger-olkeler/abs-iraqin-silahli-qruplasmasini-ve-liderini-terrorcu-elan-edib/">ABŞ İraqın silahlı qruplaşmasını və liderini terrorçu elan edib</a></p>
+                     <a  class="link_to_the_common_page_of_topic" href="https://report.az/diger-olkeler/">DİGƏR ÖLKƏLƏR</a>
+
+                     <p class="time">00:54</p>
+                     <p><a class="text_of_card" href="https://report.az/diger-olkeler/israil-hizbullahin-herbi-infrastrukturuna-novbeti-cavab-zerbeleri-endirib/">İsrail Hizbullahın hərbi infrastrukturuna növbəti cavab zərbələri endirib</a></p>
+                     <a  class="link_to_the_common_page_of_topic" href="https://report.az/diger-olkeler/">DİGƏR ÖLKƏLƏR</a>
+
+                     <p class="time">00:29</p>
+                     <p><a class="text_of_card" href="https://report.az/region-xeberleri/gurcu-politoloq-prezident-ilham-eliyev-her-kese-subut-etdi-ki-erazi-butovluyu-nece-berpa-olunur/">Gürcü politoloq: “Prezident İlham Əliyev hər kəsə sübut etdi ki, ərazi bütövlüyü necə bərpa olunur”</a></p>
+                     <a class="link_to_the_common_page_of_topic" href="https://report.az/region-xeberleri/">REGİON</a>
+ 
+                     <p class="time">23:58</p>
+                     <p><a class="text_of_card" href="https://report.az/region-xeberleri/bayden-qeter-emiri-ile-qezzada-girovlarin-azad-edilmesini-muzakire-edib/">Bayden Qətər əmiri ilə Qəzzada girovların azad olunmasını müzakirə edib</a></p>
+                     <a class="link_to_the_common_page_of_topic" href="https://report.az/region-xeberleri/">REGİON</a>
+
+
+                     <p class="time">23:43</p>
+                     <p><a class="text_of_card" href="https://report.az/diger-olkeler/zelenski-ukrayna-xarici-kesfiyyat-xidmeti-rehberinin-muavinini-isden-cixarib/">Zelenski Xarici Kəşfiyyat Xidməti rəhbərinin müavinini işdən çıxarıb</a></p>
+                     <a  class="link_to_the_common_page_of_topic" href="https://report.az/diger-olkeler/">DİGƏR ÖLKƏLƏR</a>
+
+                     <p class="time">23:15</p>
+                     <p><a class="text_of_card" href="https://report.az/region-xeberleri/qezza-zolaginda-olenlerin-sayi-12-mini-kecib/">Qəzza zolağında ölənlərin sayı 12 mini keçib</a></p>
+                     <a class="link_to_the_common_page_of_topic" href="https://report.az/region-xeberleri/">REGİON</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+         <footer>
+          <div class="footerdiv1">
+         <a href=https://report.az/ > <img src="reportlogo.webp" alt="reportlogo" style="width:180 px; height:45px"> </a>
+         </div>
+         <div class="footerdiv2">
+       <pre class="footerp1">
+            <br>
+   Saytdakı materialların istifadəsi zamanı istinad edilməsi vacibdir.
+   Məlumat internet səhifələrində istifadə edildikdə hiperlink vasitəsi ilə 
+   istinad mütləqdir.
+        </pre>
+         <br>
+            <center>
+            <p class="footerp2">"Report" müstəqil informasiya agentliyi sayt və gündəlik bülletenlər vasitəsi ilə Azərbaycan, rus və ingilis dillərində siyasət, iqtisadiyyat, cəmiyyət, idman, mədəniyyət sahələri üzrə ölkədə və dünyada baş verən ən vacib hadisələri öz oxucularına operativ şəkildə çatdırır. O cümlədən, saytın “Analitika” bölməsində Azərbaycanda və dünyada gedən proseslərlə bağlı analitik materiallar təqdim edilir.</p>
+         </center>
+         </div>
+       </footer>
+      
+    </body>
+</html>
